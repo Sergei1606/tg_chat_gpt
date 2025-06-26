@@ -1,19 +1,18 @@
 [tool.poetry]
 name = "tg-chat-gpt"
 version = "0.1.0"
-description = ""
-authors = ["PC <sergei1606@gmail.com>"]
+description = "Telegram bot with ChatGPT integration"
+authors = ["Your Name <your@email.com>"]
 readme = "README.md"
+packages = []  # Явно указываем пустой массив
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = "^3.10"
 openai = "^1.88.0"
 python-telegram-bot = "^22.1"
 requests = "^2.32.4"
 pillow = "^11.2.1"
 python-dotenv = "^1.1.0"
-poetry-core = "^2.1.3"
-
 
 [build-system]
 requires = ["poetry-core"]
